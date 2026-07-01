@@ -1,1 +1,12 @@
-
+body{
+    background-color: rgb(255, 0, 191);
+}
+header{
+    background-color: aqua;
+}
+main{
+    background-color: blueviolet;
+}
+section{
+    background-color: aquamarine;
+}
