@@ -1,6 +1,6 @@
 body{
     background-color: rgb(73, 164, 180);
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color:bisque
+    color:rgb(100, 206, 248)
 }
 
 p {
@@ -31,12 +31,26 @@ nav {
 nav a {
     color:white;
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: rgb(146, 203, 252);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
     display: inline-block;
 }
+nav a:hover {
+    background-color: #FAF7F0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
 img {
     width: 100%;
     max-width: 600px;
@@ -48,7 +62,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: beige;
+    color: rgb(0, 0, 0);
     margin-top: 8px;
 }
 
