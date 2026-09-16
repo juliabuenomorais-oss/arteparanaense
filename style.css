@@ -77,9 +77,15 @@ card {
 }
 
 card h3 {
-     background-color: rgb(124, 19, 145);
+    margin-top: 0;
+}
+footer {
+    background-color: rgb(124, 19, 145);
     color:white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
+
+
+     
