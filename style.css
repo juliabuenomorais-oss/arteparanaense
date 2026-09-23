@@ -88,7 +88,7 @@ footer {
 }
 
 button {
-    background-color: rgb(28, 173, 209);;
+    background-color: rgb(28, 173, 209);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(73, 164, 180);;
+    background-color: rgb(73, 164, 180);
 }
 
 .curtir {
