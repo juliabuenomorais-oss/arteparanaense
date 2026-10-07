@@ -1,25 +1,26 @@
-:root{
-    --cor-fundo:rgb(73, 164, 180);
-    --cor-texto:rgb(0, 0, 0);
-    --cor-principal:rgb(28, 173, 209);
-    --cor-secundaria:rgb(73, 164, 180);
-    --cor-hover:#FAF7F0;
-    --cor-superficie:white;
-    --cor-card:rgb(146, 203, 252);
-    --cor-legenda:black;
-    --cor-clara:white;
-    --cor-rodape:rgb(28, 173, 209);
+:root {
+    --cor-fundo: rgb(73, 164, 180);
+    --cor-texto: rgb(0, 0, 0);
+    --cor-principal: rgb(28, 173, 209);
+    --cor-secundaria: rgb(64, 146, 160);
+    --cor-hover: #FAF7F0;
+    --cor-superficie: white;
+    --cor-card: rgb(146, 203, 252);
+    --cor-legenda: black;
+    --cor-clara: white;
+    --cor-rodape: rgb(28, 173, 209);
 
 }
 
 
-body{
+body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
-header{
+
+header {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
     text-align: center;
@@ -39,6 +40,7 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
 nav {
     margin-top: 20px;
 }
@@ -52,6 +54,7 @@ nav a {
     margin: 5px;
     display: inline-block;
 }
+
 nav a:hover {
     background-color: var(--cor-hover);
 }
@@ -67,7 +70,7 @@ section {
     padding: 20px;
     border-radius: 12px;
 }
-    
+
 img {
     width: 100%;
     max-width: 600px;
@@ -94,6 +97,7 @@ figcaption {
 .card h3 {
     margin-top: 0;
 }
+
 footer {
     background-color: var(--cor-rodape);
     color: var(--cor-clara);
@@ -103,7 +107,7 @@ footer {
 }
 
 button {
-    background-color: var(--cor-principla);
+    background-color: var(--cor-principal);
     color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
@@ -120,6 +124,3 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
-
-
-     
